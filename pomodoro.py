@@ -17,7 +17,6 @@ def countdown():
     """
     Function starts countdown for the pomodoro session and outputs the remaining time.
     """
-    
     start_epoch = time.time()
     current_time = time.gmtime(start_epoch)
     current_time_formatted = time.strftime('%H:%M:%S',  current_time)
